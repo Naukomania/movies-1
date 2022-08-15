@@ -3,9 +3,8 @@ import MainLayout from "../components/layouts/Main"
 import PanelSection from "../components/sections/Panel"
 import Line from "../components/movies/Line"
 import {useRouter} from "next/router"
-//
+import { API_URL } from "../config"
 
-const API_URL = "http://localhost:3001"
 const PAGE_LIMIT=8
 const Page = () => {
     const [items, setItems] = useState([])

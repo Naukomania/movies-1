@@ -4,7 +4,7 @@ import MovieDetail from "../../components/movies/Detail"
 import Synopsis from "../../components/movies/Synopsis"
 import MovieComment from "../../components/movies/Comment"
 import {useEffect,useState} from "react"
-const API_URL = "http://localhost:3001"
+import { API_URL } from "../../config"
 
 const Movie =()=>{
   const [movie,setMovie]= useState()
